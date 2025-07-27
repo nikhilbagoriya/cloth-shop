@@ -1,0 +1,1271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Guddu Bhaiya's Shop</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playball&display=swap" rel="stylesheet">
+
+        <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/owl.carousel.min.css" rel="stylesheet">
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <!-- Spinner Start -->
+        <div id="spinner" class="show w-100 vh-100 bg-white position-fixed translate-middle top-50 start-50  d-flex align-items-center justify-content-center">
+            <div class="spinner-grow text-primary" role="status"></div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Navbar start -->
+        <div class="container-fluid nav-bar">
+            <div class="container">
+                <nav class="navbar navbar-light navbar-expand-lg">
+                    <a href="index.html" class="navbar-brand">
+                        <img src="./img/logo1.png" width="30%" alt="">
+                    </a>
+                    <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                        <span class="fa fa-bars text-primary"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <div class="navbar-nav mx-auto">
+                            <a href="index.html" class="nav-item nav-link">Home</a>
+                            <a href="about.html" class="nav-item nav-link">About</a>
+                            <a href="service.html" class="nav-item nav-link">Services</a>
+                            <a href="blog.html" class="nav-item nav-link">Blog</a>
+                            <a href="customers.html" class="nav-item nav-link">Customers</a>
+                            <a href="fashion_cloths.html" class="nav-item nav-link active">Fashion Cloths</a>
+                        </div>
+                        <a href="contact.html" class="btn btn-primary py-2 px-4 d-none d-xl-inline-block rounded-pill">Contact</a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- Navbar End -->
+        <div class="popup">
+            <button id="close">&times;</button>
+            <a href="https://digitalcomputertechnology.in/">
+              <video width="100%" autoplay muted loop>
+                <source src="img/digital_ads.mp4" type="video/mp4">
+              </video>
+            </a>
+          </div>
+
+        <!-- Modal Search Start -->
+        <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content rounded-0">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Search by keyword</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body d-flex align-items-center">
+                        <div class="input-group w-75 mx-auto d-flex">
+                            <input type="search" class="form-control bg-transparent p-3" placeholder="keywords" aria-describedby="search-icon-1">
+                            <span id="search-icon-1" class="input-group-text p-3"><i class="fa fa-search"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal Search End -->
+
+
+        <!-- Hero Start -->
+        <div class="container-fluid bg-light py-6 my-6 mt-0">
+            <div class="container text-center animated bounceInDown">
+                <h1 class="display-1 mb-4">Men Cloths</h1>
+                <ol class="breadcrumb justify-content-center mb-0 animated bounceInDown">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item text-dark" aria-current="page">Men Cloths</li>
+                </ol>
+            </div>
+        </div>
+        <!-- Hero End -->
+
+
+        <!-- Events Start -->
+        <div class="container-fluid event py-6">
+            <div class="container">
+                <div class="text-center wow bounceInUp" data-wow-delay="0.1s">
+                    <small class="d-inline-block fw-bold text-dark text-uppercase bg-light border border-primary rounded-pill px-4 py-1 mb-3">Latest Cloths</small>
+                    <h1 class="display-5 mb-5">Our Social & Professional Events Gallery</h1>
+                </div>
+                <div class="tab-class text-center">
+                    <div class="tab-content">
+                        <div id="tab-1" class="tab-pane fade show p-0 active">
+                            <div class="row g-4">
+                                <div class="col-lg-12">
+                                    <div class="row g-4">
+                                        <div class="col-md-6 col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/guddu_bhaiya_ki_dukaan_cloth1.webp" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <a href="img/guddu_bhaiya_ki_dukaan_cloth1.webp" data-lightbox="event-1" class="my-auto"><a href="contact.html" class="border rounded-pill mx-5 py-2 bg-dark">Shopping</a></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/guddu_bhaiya_ki_dukaan_cloth2.webp" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <a href="img/guddu_bhaiya_ki_dukaan_cloth2.webp" data-lightbox="event-1" class="my-auto"><a href="contact.html" class="border rounded-pill mx-5 py-2 bg-dark">Shopping</a></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/guddu_bhaiya_ki_dukaan_cloth3.webp" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <a href="img/guddu_bhaiya_ki_dukaan_cloth3.webp" data-lightbox="event-1" class="my-auto"><a href="contact.html" class="border rounded-pill mx-5 py-2 bg-dark">Shopping</a></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/guddu_bhaiya_ki_dukaan_cloth4.webp" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <a href="img/guddu_bhaiya_ki_dukaan_cloth4.webp" data-lightbox="event-1" class="my-auto"><a href="contact.html" class="border rounded-pill mx-5 py-2 bg-dark">Shopping</a></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/guddu_bhaiya_ki_dukaan_cloth5.webp" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <a href="img/guddu_bhaiya_ki_dukaan_cloth5.webp" data-lightbox="event-1" class="my-auto"><a href="contact.html" class="border rounded-pill mx-5 py-2 bg-dark">Shopping</a></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/guddu_bhaiya_ki_dukaan_cloth6.webp" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <a href="img/guddu_bhaiya_ki_dukaan_cloth6.webp" data-lightbox="event-1" class="my-auto"><a href="contact.html" class="border rounded-pill mx-5 py-2 bg-dark">Shopping</a></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/guddu_bhaiya_ki_dukaan_cloth7.webp" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <a href="img/guddu_bhaiya_ki_dukaan_cloth7.webp" data-lightbox="event-1" class="my-auto"><a href="contact.html" class="border rounded-pill mx-5 py-2 bg-dark">Shopping</a></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                            <div class="event-img position-relative">
+                                                <img class="img-fluid rounded w-100" src="img/guddu_bhaiya_ki_dukaan_cloth8.webp" alt="">
+                                                <div class="event-overlay d-flex flex-column p-4">
+                                                    <a href="img/guddu_bhaiya_ki_dukaan_cloth8.webp" data-lightbox="event-1" class="my-auto"><a href="contact.html" class="border rounded-pill mx-5 py-2 bg-dark">Shopping</a></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Events End -->
+
+        <!-- slider -->
+        <section class="slider-section">
+            <div class="container">
+                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <a href="#"><img src="./img/guddu_bhaiya_ki_dukaan_slider1.webp" class="d-block w-100" alt="..."></a>
+                      </div>
+                      <div class="carousel-item">
+                        <a href="#"><img src="./img/guddu_bhaiya_ki_dukaan_slider2.webp" class="d-block w-100" alt="..."></a>
+                      </div>
+                      <div class="carousel-item">
+                        <a href="#"><img src="./img/guddu_bhaiya_ki_dukaan_slider3.webp" class="d-block w-100" alt="..."></a>
+                      </div>
+                      <div class="carousel-item">
+                        <a href="#"><img src="./img/guddu_bhaiya_ki_dukaan_slider4.webp" class="d-block w-100" alt="..."></a>
+                      </div>
+                      <div class="carousel-item">
+                        <a href="#"><img src="./img/guddu_bhaiya_ki_dukaan_slider5.webp" class="d-block w-100" alt="..."></a>
+                      </div>
+                      <div class="carousel-item">
+                        <a href="#"><img src="./img/guddu_bhaiya_ki_dukaan_slider6.webp" class="d-block w-100" alt="..."></a>
+                      </div>
+                      <div class="carousel-item">
+                        <a href="#"><img src="./img/guddu_bhaiya_ki_dukaan_slider7.webp" class="d-block w-100" alt="..."></a>
+                      </div>
+                      <div class="carousel-item">
+                        <a href="#"><img src="./img/guddu_bhaiya_ki_dukaan_slider8.webp" class="d-block w-100" alt="..."></a>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+        </section>
+
+        <!-- Menu Start -->
+        <div class="container-fluid menu bg-light py-6 my-6">
+            <div class="container">
+                <div class="text-center wow bounceInUp" data-wow-delay="0.1s">
+                    <h1 class="display-5 mb-5">Most Popular Food in the World</h1>
+                </div>
+                <div class="tab-class text-center">
+                    <ul class="nav nav-pills d-inline-flex justify-content-center mb-5 wow bounceInUp" data-wow-delay="0.1s">
+                        <li class="nav-item p-2">
+                            <a class="d-flex py-2 mx-2 border border-primary bg-white rounded-pill active" data-bs-toggle="pill" href="#tab-6">
+                                <span class="text-dark" style="width: 150px;">All</span>
+                            </a>
+                        </li>
+                        <li class="nav-item p-2">
+                            <a class="d-flex py-2 mx-2 border border-primary bg-white rounded-pill" data-bs-toggle="pill" href="#tab-7">
+                                <span class="text-dark" style="width: 150px;">T-Shirt</span>
+                            </a>
+                        </li>
+                        <li class="nav-item p-2">
+                            <a class="d-flex py-2 mx-2 border border-primary bg-white rounded-pill" data-bs-toggle="pill" href="#tab-8">
+                                <span class="text-dark" style="width: 150px;">Shirt</span>
+                            </a>
+                        </li>
+                        <li class="nav-item p-2">
+                            <a class="d-flex py-2 mx-2 border border-primary bg-white rounded-pill" data-bs-toggle="pill" href="#tab-9">
+                                <span class="text-dark" style="width: 150px;">Trousers</span>
+                            </a>
+                        </li>
+                        <li class="nav-item p-2">
+                            <a class="d-flex py-2 mx-2 border border-primary bg-white rounded-pill" data-bs-toggle="pill" href="#tab-10">
+                                <span class="text-dark" style="width: 150px;">Jeans</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div id="tab-6" class="tab-pane fade show p-0 active">
+                            <div class="row g-4">
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_jeans1.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_t-shirt1.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_shirt1.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_Trousers1.jpg" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_Trousers2.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_shirt2.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_t-shirt2.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_jeans2.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_shirt3.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_jeans3.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_t-shirt3.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_Trousers3.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_t-shirt4.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_Trousers4.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_shirt4.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_jeans4.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_jeans5.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_t-shirt5.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_shirt5.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_Trousers5.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_Trousers6.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_shirt6.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_t-shirt6.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_jeans6.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_shirt7.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_jeans7.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_t-shirt7.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_Trousers7.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_jeans8.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_t-shirt8.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_shirt8.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_Trousers8.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_jeans9.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_shirt9.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_t-shirt9.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_jeans9.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div><div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_shirt10.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_jeans10.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_t-shirt10.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_Trousers10.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div><div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_jeans11.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_t-shirt11.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_shirt11.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_Trousers11.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div><div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_Trousers12.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_shirt12.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_t-shirt12.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_jeans12.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div><div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_shirt13.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_jeans13.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_t-shirt13.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_Trousers13.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div><div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_jeans14.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_t-shirt14.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_shirt14.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_Trousers14.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div><div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_Trousers15.jpg" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_shirt15.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_t-shirt15.jpg" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_jeans15.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div><div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_shirt16.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_jeans16.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_t-shirt16.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_Trousers16.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div><div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_t-shirt17.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_shirt17.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_Trousers17.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_Trousers18.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div><div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_Trousers19.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_t-shirt19.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_Trousers19.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_t-shirt20.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div id="tab-7" class="tab-pane fade show p-0">
+                            <div class="row g-4">
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_t-shirt1.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_t-shirt2.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_t-shirt3.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_t-shirt4.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_t-shirt5.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_t-shirt6.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_t-shirt7.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_t-shirt8.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_t-shirt9.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_t-shirt10.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_t-shirt11.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_t-shirt12.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_t-shirt13.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_t-shirt14.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_t-shirt15.jpg" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_t-shirt16.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_t-shirt17.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_t-shirt18.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_t-shirt19.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_t-shirt20.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div id="tab-8" class="tab-pane fade show p-0">
+                            <div class="row g-4">
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_shirt1.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_shirt2.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_shirt3.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_shirt4.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_shirt5.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_shirt6.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_shirt7.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_shirt8.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_shirt9.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_shirt10.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_shirt11.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_shirt12.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_shirt13.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_shirt14.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_shirt15.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_shirt16.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_shirt17.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_shirt18.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab-9" class="tab-pane fade show p-0">
+                            <div class="row g-4">
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_Trousers1.jpg" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_Trousers2.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_Trousers3.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_Trousers4.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_Trousers5.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_Trousers6.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_Trousers7.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_Trousers8.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_Trousers9.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_Trousers10.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_Trousers11.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_Trousers12.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_Trousers13.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_Trousers14.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_Trousers15.jpg" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_Trousers16.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_Trousers17.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_Trousers18.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_Trousers19.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_Trousers20.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab-10" class="tab-pane fade show p-0">
+                            <div class="row g-4">
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_jeans1.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_jeans2.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_jeans3.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_jeans4.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_jeans5.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_jeans6.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_jeans7.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_jeans8.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_jeans9.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_jeans10.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_jeans11.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_jeans12.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_jeans13.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_jeans14.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_jeans15.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 wow bounceInUp" data-wow-delay="0.1s">
+                                    <a href="contact.html">
+                                        <img class="flex-shrink-0 img-fluid" src="img/guddu_bhaiya_ki_dukaan_jeans16.webp" alt="">
+                                        <div class="d-block p-3" style="background-color: #d4a762;"><span class="float-start text-dark fw-bold" style="margin-top: -12px;">price: xx/-</span><span class="float-end text-dark" style="margin-top: -12px;"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Menu End -->
+
+        <!-- Footer Start -->
+        <div class="container-fluid footer py-6 my-6 mb-0 bg-light wow bounceInUp" data-wow-delay="0.1s">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-item">
+                            <h1 class="text-primary">Guddu<span class="text-dark">Bhaiya</span></h1>
+                            <p class="lh-lg mb-4">Guddu Bhaiya Cloth Shop offers top-quality fashion at unbeatable prices, loved by all customers.</p>
+                            <div class="footer-icon d-flex">
+                                <a class="btn btn-primary btn-sm-square me-2 rounded-circle" href="https://www.facebook.com/krishna.bihari.7127146?mibextid=ZbWKwL"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://www.instagram.com/guddu_bhai_ki_dukan" class="btn btn-primary btn-sm-square me-2 rounded-circle"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-item">
+                            <h4 class="mb-4">Quick Links</h4>
+                            <div class="d-flex flex-column align-items-start">
+                                <a class="text-body mb-3" href="index.html"><i class="fa fa-check text-primary me-2"></i>Home</a>
+                                <a class="text-body mb-3" href="about.html"><i class="fa fa-check text-primary me-2"></i>About</a>
+                                <a class="text-body mb-3" href="team.html"><i class="fa fa-check text-primary me-2"></i>Team</a>
+                                <a class="text-body mb-3" href="contact.html"><i class="fa fa-check text-primary me-2"></i>Contact</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-item">
+                            <h4 class="mb-4">Contact Us</h4>
+                            <div class="d-flex flex-column align-items-start">
+                                <p><i class="fa fa-map-marker-alt text-primary me-2"></i>BASEMENT CITY PLAZA KOTPUTLI</p>
+                                <p><i class="fa fa-phone-alt text-primary me-2"></i> (+91) 8107396313</p>
+                                <p><i class="fas fa-envelope text-primary me-2"></i> info@guddubhaiya.in</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-item">
+                            <h4 class="mb-4">Social Gallery</h4>
+                            <div class="row g-2">
+                                <div class="col-4">
+                                     <img src="img/guddu_bhaiya_ki_dukaan_cloth22.jfif"  style="width: 100%; height: 100px;" class="img-fluid rounded-circle border border-primary p-2" alt="">
+                                </div>
+                                <div class="col-4">
+                                     <img src="img/logo.jpeg" class="img-fluid rounded-circle border border-primary p-2" alt="">
+                                </div>
+                                <div class="col-4">
+                                    <img src="img/guddu_bhaiya_ki_dukaan_cloth21.jfif"  style="width: 100%; height: 100px;" class="img-fluid rounded-circle border border-primary p-2" alt="">
+                                </div>
+                                <div class="col-4">
+                                    <img src="img/guddu_bhaiya_ki_dukaan_cloth19.jfif"  style="width: 100%; height: 100px;" class="img-fluid rounded-circle border border-primary p-2" alt="">
+                                </div>
+                                <div class="col-4">
+                                     <img src="img/logo1.jpeg" class="img-fluid rounded-circle border border-primary p-2" alt="">
+                                </div>
+                                <div class="col-4">
+                                    <img src="img/guddu_bhaiya_ki_dukaan_cloth20.jfif"  style="width: 100%; height: 100px;" class="img-fluid rounded-circle border border-primary p-2" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Copyright Start -->
+        <div class="container-fluid copyright bg-dark py-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        <span class="text-light"><a href="https://digitalcomputertechnology.in/"><i class="fas fa-copyright text-light me-2"></i>digitalcomputer.in</a>, All right reserved.</span>
+                    </div>
+                    <div class="col-md-6 my-auto text-center text-md-end text-white">
+                        <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
+                        <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
+                        <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
+                        Designed By <a class="border-bottom" href="https://digitalcomputertechnology.in/">DCT</a> Distributed By <a class="border-bottom " href="https://digitalcomputertechnology.in/">DIGITAL COMPUTER TECHNOLOGY</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-md-square btn-primary rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>   
+
+        
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    </body>
+
+</html>
