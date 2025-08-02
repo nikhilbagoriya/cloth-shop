@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://guddubhaiya.in/sitemap.xml
+
+# Disallow admin or private areas (if any)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/
+
+# Allow all other content
+Allow: /css/
+Allow: /js/
+Allow: /img/
+Allow: /lib/ 
